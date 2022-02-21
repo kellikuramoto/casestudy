@@ -1,0 +1,997 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!-- our JS -->
+    <script src="script.js"></script>
+    <!-- font import -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&family=Source+Serif+Pro:wght@400;700&display=swap');
+    </style>
+    <title>DEI Strategic Plan Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <p>Carnegie Mellon University</p>
+    </header>
+
+    <div class="intro">
+        <!-- Bootstrap breadcrumb -->
+        <div class="breadcrumb pt-3">
+            <nav style="--bs-breadcrumb-divider: '&#160;&#8250;&#160;';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"> <a href="https://www.cmu.edu/dietrich/index.html">Dietrich College of Humanities and Social Sciences</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Diversity, Equity and Inclusion Strategic Plan</li>
+                </ol>
+              </nav>
+        </div>
+        <!-- introduction to the plan -->
+        <h1 class="h py-3">Dietrich College of Humanities and Social Sciences</h1>
+        <h2 class="h pb-3">Diversity, Equity, and Inclusion Strategic Plan</h2>
+        <p class="pb-2">
+            Carnegie Mellon University and the Dietrich College for Humanities
+            and Social Sciences value a dynamic and diverse community where all
+            members are responsible for contributing to an inclusive environment.
+
+            The Dietrich College values diversity, equity and inclusion because:
+            <ul>
+                <li>
+                    diverse institutions function better than homogenous ones; and
+                </li>
+                <li>
+                    equal opportunity for all is a moral imperative.
+                </li>
+            </ul>
+
+            The college strives to promote a culture of respect, scholarship,
+            innovation and integrity as we advance talented minds from diverse
+            backgrounds. We aim to achieve these goals by implementing concrete
+            practices at the center of our daily work that minimize bias and
+            support diversity, by holding ourselves accountable to show progress
+            and by attending to and revising these practices relentlessly.
+        </p>
+        <!-- link to full plan pdf -->
+        <a id="full_plan"
+            href="https://www.cmu.edu/dietrich/about/dei/docs/diversity-equity-inclusion-strategic-plan.pdf">VIEW FULL
+            PLAN
+        </a>
+        <br>
+        <br>
+        <!-- Bootstrap buttons -->
+        <!-- link to corresponding section on page -->
+        <div id="goals_initatives">
+            <div class="row justify-content-center">
+                <div class="col col-9 col-md-3 my-3 sectionButton">
+                    <a class="btn" role="button" href="#student">Student Goals & Initatives</a>
+                </div>
+                <div class="col col-9 col-md-3 my-3 sectionButton">
+                    <a class="btn" role="button" href="#faculty">Faculty Goals & Initatives</a>
+                </div>
+                <div class="col col-9 col-md-3 my-3 sectionButton">
+                    <a class="btn" role="button" href="#staff">Staff Goals & Initatives</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="content">
+        <!-- Bootstrap carousel -->
+        <!-- news and updates regarding dei plan -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col col-md col-12 py-4">
+                                <img src="images/images-1.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col col-md col-12 carousel-text">
+                                <br>
+                                <h2 class="carousel">Dietrich Academy Launches It's First Phase</h2>
+                                <br>
+                                <p>Dietrich College has been working to roll out its first phase since 2018. A group of
+                                    students, pictured left, start their week long immersion into CMU.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col col-md col-12 py-4">
+                                <img src="images/images-2.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col col-md col-12 carousel-text">
+                                <br>
+                                <h2 class="carousel">Dietrich Academy Launches It's First Phase</h2>
+                                <br>
+                                <p>Dietrich College has been working to roll out its first phase since 2018. A group of
+                                    students, pictured left, start their week long immersion into CMU.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col col-md col-12 py-4">
+                                <img src="images/images-3.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col col-md col-12 carousel-text">
+                                <br>
+                                <h2 class="carousel">Dietrich Academy Launches It's First Phase</h2>
+                                <br>
+                                <p>Dietrich College has been working to roll out its first phase since 2018. A group of
+                                    students, pictured left, start their week long immersion into CMU.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- Bootstrap navbar -->
+        <!-- student section, displays student goals and initiatives -->
+        <div id="student" class="pb-3">
+            <nav class="nav-edit navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand">
+                        <h3 class="h" id="student-heading">Student</h3>
+                    </a>
+                    <button class="toggler-edit navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#studentNav" aria-controls="studentNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="studentNav">
+                        <ul class="nav nav-pills px-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="student1-tab" href="#student1" data-toggle="tab"
+                                    role="tab" aria-controls="student1">Diverse Student Body</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="student2-tab" href="#student2" data-toggle="tab" role="tab"
+                                    aria-controls="student2">Inclusive Environment</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="tab-content pb-5">
+                <div class="tab-pane active" id="student1" role="tabpanel" aria-labelledby="student1-tab">
+                    <h5 class="text-center pt-3 pb-5 px-3">Goal: Recruit and Retain a Diverse Student Body</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5 class="pb-1 ps-3">Initiatives</h5>
+                                <div class="accordion" id="studentAccordion1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="s1h1">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#s1c1" aria-expanded="true" aria-controls="s1c1"
+                                                onclick="changeImage('s1-img','images/Final_Diversity_at_Dietrich.png')">Diversity@Dietrich
+                                                Series</button>
+                                        </h2>
+                                        <div id="s1c1" class="accordion-collapse collapse show" aria-labelledby="s1h1"
+                                            data-bs-parent="#studentAccordion1">
+                                            <div class="accordion-body">
+                                                Diversity@Dietrich is a series of DEI events and trainings created to
+                                                improve the reach of DEI programs and to directly address undergraduate
+                                                student requests for more education and training resources to improve
+                                                student, staff and faculty awareness and acceptance of our diverse
+                                                student-base.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="s1h2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#s1c2" aria-expanded="false"
+                                                aria-controls="s1c2"
+                                                onclick="changeImage('s1-img','images/Final_Dietrich_Academy.png')">Dietrich Academy</button>
+                                        </h2>
+                                        <div id="s1c2" class="accordion-collapse collapse" aria-labelledby="s1h2"
+                                            data-bs-parent="#studentAccordion1">
+                                            <div class="accordion-body">
+                                                Dietrich Academy is a summer pre-college program for low-income,
+                                                first-generation, and other students from the Pittsburgh area who
+                                                contribute to diversity. This program aims to connect these
+                                                students to each other fostering a strong cohort, and to encourage them
+                                                to identify with and apply
+                                                to Dietrich College.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="s1h3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#s1c3" aria-expanded="false"
+                                                aria-controls="s1c3"
+                                                onclick="changeImage('s1-img','images/Final_PhD_Fellowships.png')">Expand PhD
+                                                Fellowships</button>
+                                        </h2>
+                                        <div id="s1c3" class="accordion-collapse collapse" aria-labelledby="s1h3"
+                                            data-bs-parent="#studentAccordion1">
+                                            <div class="accordion-body">
+                                                Dietrich College is providing equitable financial support to expand PhD
+                                                Fellowships to support one program participant per year per department.
+                                                Existing Dietrich College fellowships are being repurposed so that
+                                                instead of each unit receiving a small sum annually, the college uses
+                                                these funds to bootstrap college-wide fellowships for PhDs who
+                                                contribute to the College’s diversity.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="s1h4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#s1c4" aria-expanded="false"
+                                                aria-controls="s1c4"
+                                                onclick="changeImage('s1-img','images/Final_Fifth_Year.png')">Fifth Year Master’s
+                                                Bridge Program</button>
+                                        </h2>
+                                        <div id="s1c4" class="accordion-collapse collapse" aria-labelledby="s1h4"
+                                            data-bs-parent="#studentAccordion1">
+                                            <div class="accordion-body">
+                                                The Dietrich College Fifth Year Master’s Bridge Program is a one-year
+                                                bridge-to-PhD post-baccalaureate or master’s program for students who
+                                                contiibute o the College’s diversity.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 initiative-img">
+                                <img class="img-fluid" id="s1-img" src="images/Final_Diversity_at_Dietrich.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="student2" role="tabpanel" aria-labelledby="student2-tab">
+                    <h5 class="text-center pt-3 pb-5 px-3">Goal: Provide an equitable and inclusive environment for
+                        students.</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5 class="pb-1 ps-3">Initiatives</h5>
+                                <div class="accordion" id="studentAccordion2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="s2h1">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#s2c1" aria-expanded="true" aria-controls="s2c1"
+                                                onclick="changeImage('s2-img','images/Final_Dietrich_College_Climate_Survey.png')">Cultural Climate
+                                                Survey</button>
+                                        </h2>
+                                        <div id="s2c1" class="accordion-collapse collapse show" aria-labelledby="s2h1"
+                                            data-bs-parent="#studentAccordion2">
+                                            <div class="accordion-body">
+                                                The Dietrich College Cultural Climate Survey will be a regularly
+                                                administered survey which specifically assessses diversity, inclusion,
+                                                equity and access issues that impact Dietrich undergraduate students.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="s2h2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#s2c2" aria-expanded="false"
+                                                aria-controls="s2c2"
+                                                onclick="changeImage('s2-img','images/Final_Faculty_Mentorship_Program.png')">Faculty Mentorship
+                                                Training</button>
+                                        </h2>
+                                        <div id="s2c2" class="accordion-collapse collapse" aria-labelledby="s2h2"
+                                            data-bs-parent="#studentAccordion2">
+                                            <div class="accordion-body">
+                                                Faculty mentorship training will be instituted to all faculty advisors
+                                                that are specific to the needs of first-generation graduate students and
+                                                those from under-represented populations.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="s2h3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#s2c3" aria-expanded="false"
+                                                aria-controls="s2c3"
+                                                onclick="changeImage('s2-img','images/Final_Town_Hall_Initiatives.png')">Annual Town Hall</button>
+                                        </h2>
+                                        <div id="s2c3" class="accordion-collapse collapse" aria-labelledby="s2h3"
+                                            data-bs-parent="#studentAccordion2">
+                                            <div class="accordion-body">
+                                                The Dietrich Annual Town Hall will be hosted by the Dean's office to
+                                                offer an opportunity for Dietrich College students to raise
+                                                graduate-specific concerns, acting as a mechanism for feedback and
+                                                redress of grievances.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 initiative-img">
+                                <img class="img-fluid" id="s2-img" src="images/Final_Dietrich_College_Climate_Survey.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <!-- Bootstrap navbar -->
+        <!-- faculty section, displays faculty goals and initiatives -->
+        <div id="faculty">
+            <nav class="nav-edit navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand">
+                        <h3 class="h" id="faculty-heading">Faculty</h3>
+                    </a>
+                    <button class="toggler-edit navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#facultyNav" aria-controls="facultyNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="facultyNav">
+                        <ul class="nav nav-pills px-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="faculty1-tab" href="#faculty1" data-toggle="tab"
+                                    role="tab" aria-controls="faculty1">Improve Access & Equity</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="faculty2-tab" href="#faculty2" data-toggle="tab" role="tab"
+                                    aria-controls="faculty2">Inclusive Environment</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="faculty3-tab" href="#faculty3" data-toggle="tab" role="tab"
+                                    aria-controls="faculty3">DEI Research</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="faculty4-tab" href="#faculty4" data-toggle="tab" role="tab"
+                                    aria-controls="faculty4">Teaching Diversity</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="tab-content pb-5">
+                <div class="tab-pane active" id="faculty1" role="tabpanel" aria-labelledby="faculty1-tab">
+                    <h5 class="text-center pt-3 pb-5 px-3">Goal: Improve Acess and Equity for Historically
+                        Underrepresented Minorities and Women Faculty</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5 class="pb-1 ps-3">Initiatives</h5>
+                                <div class="accordion" id="facultyAccordion1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f1h1">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#f1c1" aria-expanded="true" aria-controls="f1c1"
+                                                onclick="changeImage('f1-img','images/Final_Create_Diverse_Hiring_Practices.png')">Create Diverse Hiring
+                                                Practices</button>
+                                        </h2>
+                                        <div id="f1c1" class="accordion-collapse collapse show" aria-labelledby="f1h1"
+                                            data-bs-parent="#studentAccordion1">
+                                            <div class="accordion-body">
+                                                Creation of new hiring practices is a multi-step process starting with
+                                                each department developing a departmental diversity recruitment plan to
+                                                adress specific conditions and goals. Along side the recruitment plan
+                                                will be the creation of a hiring procedures checklist at the college level,
+                                                development of aspirational goals and search approvals, creation of search
+                                                training, and lastly development of hiring process accountability.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f1h2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#f1c2" aria-expanded="false"
+                                                aria-controls="f1c2"
+                                                onclick="changeImage('f1-img','images/Final_Improve_Effectiveness.png')">Improve Effectiveness of Hiring</button>
+                                        </h2>
+                                        <div id="f1c2" class="accordion-collapse collapse" aria-labelledby="f1h2"
+                                            data-bs-parent="#facultyAccordion1">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Identify Resources to Attract Canidates</li>
+                                                    <p>
+                                                        Associate Dean will help secure resources such as space, start-up
+                                                        packages, daycare spots, etc. to maximize prospect of offer acceptance.
+                                                        Both, the dean and Assosciate dean will help departments applying for
+                                                        the newly created Faculty Target of Oppourtunity Find to hire faculty
+                                                        that contribute to CMU's mission of DEI.
+                                                    </p>
+                                                    <li>Expand Presidental Post-doctoral Fellows Program to Dietrich Fellows</li>
+                                                    <p>
+                                                        Dean will continue to contribute resources to a general pool from which
+                                                        post-doctoral fellows can be partially subsidized as well also offer
+                                                        tailored supplemental programming to focus Dietrich College recruiting
+                                                        efforts.
+                                                    </p>
+                                                    <li>Create new positions</li>
+                                                    <p>
+                                                        New positions will increase DEI in research and education within Dietrich.
+                                                        This will be accomplished using the Faculty Target of Opportunity Fund.
+                                                    </p>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f1h3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#f1c3" aria-expanded="false"
+                                                aria-controls="f1c3"
+                                                onclick="changeImage('f1-img','images/Final_Improve_Transparency.png')">Improve Transparency and Equity
+                                                of Reappointment, Promotion, and Tenure Process</button>
+                                        </h2>
+                                        <div id="f1c3" class="accordion-collapse collapse" aria-labelledby="f1h3"
+                                            data-bs-parent="#facultyAccordion1">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Develop Leadership Training</li>
+                                                    <p>
+                                                        Use of a Promotion and Tenure Checklist can be used by department chairs
+                                                        to ensure consistency in practices and timing of feedback.
+                                                    </p>
+                                                    <li>Create Faculty Workshops</li>
+                                                    <p>
+                                                        Workshops will offer insight about how to develop a complelling portfolio of
+                                                        research, service, and teaching through a mock evaluation to educate junior
+                                                        faculty on the process.
+                                                    </p>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f1h4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#f1c4" aria-expanded="false"
+                                                aria-controls="f1c4"
+                                                onclick="changeImage('f1-img','images/Final_Help_Departments_Retain_and_Develop_Faculty.png')">Help Departments Retain and Develop
+                                                Faculty</button>
+                                        </h2>
+                                        <div id="f1c4" class="accordion-collapse collapse" aria-labelledby="f1h4"
+                                            data-bs-parent="#facultyAccordion1">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Develop mentorship program</li>
+                                                    <p>
+                                                        Pairing untenured faculty with departmental mentors, junior faculty can obtain
+                                                        advice on strategic planning or research, as well as developing a teaching and
+                                                        professional portfolio.
+                                                    </p>
+                                                    <li>Identify sponsors</li>
+                                                    <p>
+                                                        Faculty will receive training on the differences between mentoring and
+                                                        sponsoring female faculty.
+                                                    </p>
+                                                    <li>Create grant writing mentorship program</li>
+                                                    <p>
+                                                        Junior faculty will be paired with successful senior faculty grant recipients
+                                                        in the departments to help facilitate and support grant writing and identification.
+                                                    </p>
+                                                    <li>Identify resources to retain faculty</li>
+                                                    <p>
+                                                        Associate dean for faculty will coordinate efforts to secure resources
+                                                        such as space, resources for research, daycare spots, etc. to retain faculty.
+                                                        Also, associate dean will work with CMU’s alumni networks and our Office of
+                                                        Corporate Relations for help with spousal hiring.
+                                                    </p>
+                                                    <li>Create an ombudsperson committee</li>
+                                                    <p>
+                                                        Faculty Senate will develop a small ombudsperson committee (3–4 faculty) who
+                                                        can work with individual faculty who face problems within in their departments,
+                                                        and act as intermedaries to help triage situations.
+                                                    </p>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f1h5">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#f1c5" aria-expanded="false"
+                                                aria-controls="f1c5"
+                                                onclick="changeImage('f1-img','images/Final_Equity_in_Service.png')">Equity in Service</button>
+                                        </h2>
+                                        <div id="f1c5" class="accordion-collapse collapse" aria-labelledby="f1h5"
+                                            data-bs-parent="#facultyAccordion1">
+                                            <div class="accordion-body">
+                                                Departments will track the service activities and teaching assignments to make sure
+                                                that these activities are equitable across faculty.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f1h6">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#f1c6" aria-expanded="false"
+                                                aria-controls="f1c5"
+                                                onclick="changeImage('f1-img','images/Final_Monitor_Pay_Equity.png')">Monitor Pay Equity</button>
+                                        </h2>
+                                        <div id="f1c6" class="accordion-collapse collapse" aria-labelledby="f1h6"
+                                            data-bs-parent="#facultyAccordion1">
+                                            <div class="accordion-body">
+                                                Coordinate with University on on-going policy development to ensure salary equity for faculty.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 initiative-img">
+                                <img class="img-fluid" id="f1-img" src="images/Final_Create_Diverse_Hiring_Practices.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="faculty2" role="tabpanel" aria-labelledby="faculty2-tab">
+                    <h5 class="text-center pt-3 pb-5 px-3">Goal: Ensure a multicultural and inclusive faculty climate</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5 class="pb-1 ps-3">Initiatives</h5>
+                                <div class="accordion" id="facultyAccordion2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f2h1">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#f2c1" aria-expanded="true" aria-controls="f2c1"
+                                                onclick="changeImage('f2-img','images/Final_Communicate_Value_of_Diversity_and_Inclusion.png')">Communicate Value of Diversity and Inclusion</button>
+                                        </h2>
+                                        <div id="f2c1" class="accordion-collapse collapse show" aria-labelledby="f2h1"
+                                            data-bs-parent="#facultyAccordion2">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Create reporting mechanisms</li>
+                                                    <p>
+                                                        Once a semester, the dean will report on the status of Dietrich College’s
+                                                        DEI initiatives.
+                                                    </p>
+                                                    <li>Ensure transparency</li>
+                                                    <p>
+                                                        Develop transparent search procedures for Dietrich leadership positions
+                                                        and faculty chairs.
+                                                    </p>
+                                                    <li>Establish DEI Awards</li>
+                                                    <p>
+                                                        Establish awards and recognition for faculty involved in DEI activities.
+                                                        Awards will be given at graduation ceremonies or other Dietrich College events.
+                                                    </p>
+                                                    <li>Ensure diversity is visible in event and seminar series roles</li>
+                                                    <p>
+                                                        Make sure that there is diversity in college and department-level events,
+                                                        such as conferences, seminar series, events, graduation and other community
+                                                        events.
+                                                    </p>
+                                                    <li>Standardize messaging and communications</li>
+                                                    <p>
+                                                        Dietrich leadership will reinforce the DEI agenda through communications sent
+                                                        to students, alumni, donors, faculty, staff and other constituents.
+                                                    </p>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f2h2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#f2c2" aria-expanded="false"
+                                                aria-controls="f2c2"
+                                                onclick="changeImage('f2-img','images/Final_Opportunities_for_Learning_about_Diversity_and_Inclusion.png')">Opportunities for Learning
+                                            about Diversity and Inclusion</button>
+                                        </h2>
+                                        <div id="f2c2" class="accordion-collapse collapse" aria-labelledby="f2h2"
+                                            data-bs-parent="#facultyAccordion2">
+                                            <div class="accordion-body">
+                                                Opportunities include future series of talks/ conference that highlights current DEI
+                                                issues or diversity and inclusion training modfules for faculty.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 initiative-img">
+                                <img class="img-fluid" id="f2-img" src="images/Final_Communicate_Value_of_Diversity_and_Inclusion.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="faculty3" role="tabpanel" aria-labelledby="faculty3-tab">
+                    <h5 class="text-center pt-3 pb-5 px-3">Goal: Provide support for conducting DEI research</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5 class="pb-1 ps-3">Initiatives</h5>
+                                <div class="accordion" id="facultyAccordion3">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f3h1">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#f3c1" aria-expanded="true" aria-controls="f3c1"
+                                                onclick="changeImage('f3-img','images/Final_DEI_Research.png')">DEI Research</button>
+                                        </h2>
+                                        <div id="f3c1" class="accordion-collapse collapse show" aria-labelledby="f3h1"
+                                            data-bs-parent="#facultyAccordion3">
+                                            <div class="accordion-body">
+                                               <ol>
+                                                   <li>Prioritize fundraising for research on diversity, equity and inclusion</li>
+                                                   <p>
+                                                        Dietrich College will seek out resources that can provide funding for research
+                                                        initiatives, centers and labs
+                                                   </p>
+                                                   <li>Create cluster hires</li>
+                                                   <p>
+                                                        Create a new Dietrich research thrust in the area of diversity, equity and inclusion
+                                                        to attract diverse faculty members.
+                                                   </p>
+                                                   <li>Create a visiting diversity scholars program</li>
+                                                   <p>
+                                                        Provide support for visiting scholars, for initiatives such as CAUSE and D3 that
+                                                        support our diversity, equity and inclusion strategic efforts.
+                                                   </p>
+                                                   <li>Create an initiative on diversity, equity and inclusion research</li>
+                                                   <p>
+                                                        Dietrich will launch an initiative (potentially in coordination with cluster hires)
+                                                        or extend current initiatives (CAUSE and D3) to conduct research on DEI.
+                                                   </p>
+                                                   <li>Provide resources for research funding</li>
+                                                   <p>
+                                                        Start a fund to seed projects in the area of DEI, as well as provide money for
+                                                        diversity-related conferences, lectures and campus events.
+                                                   </p>
+                                                   <li>Report on research activity in departments</li>
+                                                   <p>
+                                                        Faculty annual reports should include information on research conducted on DEI.
+                                                        Report should include published papers, conference presentations, events,
+                                                        funding applied for and received and graduate/ undergraduate students
+                                                        supported who are involved in the research.
+                                                   </p>
+                                               </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 initiative-img">
+                                <img class="img-fluid" id="f3-img" src="images/Final_DEI_Research.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="faculty4" role="tabpanel" aria-labelledby="faculty4-tab">
+                    <h5 class="text-center pt-3 pb-5 px-3">Goal: Enhance teaching and diversity</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5 class="pb-1 ps-3">Initiatives</h5>
+                                <div class="accordion" id="facultyAccordion4">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f4h1">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#f4c1" aria-expanded="true" aria-controls="f4c1"
+                                                onclick="changeImage('f4-img','images/Final_Diversity_Content_in_Courses.png')">Diversify Content in Courses</button>
+                                        </h2>
+                                        <div id="f4c1" class="accordion-collapse collapse show" aria-labelledby="f4h1"
+                                            data-bs-parent="#facultyAccordion4">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Provide training to create diversity content in courses</li>
+                                                    <p>
+                                                        Develop a training guide for faculty on how to include DEI issues into courses.
+                                                        Would contain a list of approaches to accomplish this goal, and workshops can be
+                                                        developed in collaboration with the Eberly Center.
+                                                    </p>
+                                                    <li>Develop Dietrich curriculum</li>
+                                                    <p>
+                                                        Ensure that the some of the Grand Challenge Seminars are focused around DEI issues.
+                                                        In addition, courses on intercultural and global learning can focus on topics that
+                                                        attend directly to concepts and intellectual framing of issues pertaining to
+                                                        diversity and inclusion.
+                                                    </p>
+                                                    <li>Create diversity teaching awards</li>
+                                                    <p>
+                                                        Create two annual awards for Dietrich College faculty. One award will recognize
+                                                        an exceptional exemplar of infusing DEI into the curriculum. The other will
+                                                        recognize exceptional use of inclusive classroom practices.
+                                                    </p>
+                                                    <li>Annotate diversity perspectives in courses in annual reports</li>
+                                                    <li>Incentivize course improvements</li>
+                                                    <p>
+                                                        Small fund should be established for faculty who are re-vamping their courses to
+                                                        enhance the focus on DEI.
+                                                    </p>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="f4h2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#f4c2" aria-expanded="false"
+                                                aria-controls="f4c2"
+                                                onclick="changeImage('f4-img','images/Final_Inclusive_Classroom_Practices.png')">Inclusive Classroom Practices</button>
+                                        </h2>
+                                        <div id="f4c2" class="accordion-collapse collapse" aria-labelledby="f4h2"
+                                            data-bs-parent="#facultyAccordion4">
+                                            <div class="accordion-body">
+                                                Eberly Center faculty and the Dietrich College director of diversity and inclusion can offer
+                                                workshops on ways to increase inclusivity and a sense of belonging in the classroom. Additionally,
+                                                to ensure accountability, Dietrich will add a question on the faculty course evaluations to assess
+                                                instructor’s ability to create an inclusive classroom environment.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 initiative-img">
+                                <img class="img-fluid" id="f4-img" src="images/Final_Diversity_Content_in_Courses.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <!-- Bootstrap navbar -->
+        <!-- staff section, displays staff goals and initiatives -->
+        <div id="staff">
+            <nav class="nav-edit navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand">
+                        <h3 class="h" id="staff-heading">Staff</h3>
+                    </a>
+                    <button class="toggler-edit navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#staffNav" aria-controls="staffNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="staffNav">
+                        <ul class="nav nav-pills px-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="staff1-tab" href="#staff1" data-toggle="tab" role="tab"
+                                    aria-controls="faculty1">Diverse Staff</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="staff2-tab" href="#staff2" data-toggle="tab" role="tab"
+                                    aria-controls="staff2">Inclusive Environment</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="tab-content pb-5">
+                <div class="tab-pane active" id="staff1" role="tabpanel" aria-labelledby="staff1-tab">
+                    <h5 class="text-center pt-3 pb-5 px-3">Goal: Build and foster a positive work environment for
+                        staff in Dietrich College</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5 class="pb-1 ps-3">Initiatives</h5>
+                                <div class="accordion" id="staffAccordion1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="stf1h1">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#stf1c1" aria-expanded="true" aria-controls="stf1c1"
+                                                onclick="changeImage('stf1-img','images/Final_Gather_Data_to_Understand_Environment.png')">Gather Data to Understand Environment</button>
+                                        </h2>
+                                        <div id="stf1c1" class="accordion-collapse collapse show" aria-labelledby="stf1h1"
+                                            data-bs-parent="#staffAccordion1">
+                                            <div class="accordion-body">
+                                                Creation of previously mentioned Climate Survey will help ascertain experiences of staff.
+                                                Additionally, CMU Human Resources has developed new resources for on-boarding new employees
+                                                and established a working group to develop training programs to expand new hires’
+                                                understanding of DEI as well as racism and bias. HR also plans to establish a process of
+                                                exit interviews that include a survey and guidance documents to better understand the
+                                                reasons why employees separate from the university
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="stf1h2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#stf1c2" aria-expanded="false"
+                                                aria-controls="stf1c2"
+                                                onclick="changeImage('stf1-img','images/Final_Dietrich_Staff_Awards.png')">Dietrich Staff Awards</button>
+                                        </h2>
+                                        <div id="stf1c2" class="accordion-collapse collapse" aria-labelledby="stf1h2"
+                                            data-bs-parent="#staffAccordion1">
+                                            <div class="accordion-body">
+                                                Establish the Dietrich Staff Awards and have a celebration to recognize the award recipients,
+                                                which is attended by the college leadership and department heads. We would also like to see
+                                                staff figures represented on the websites for both the college and university.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="stf1h3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#stf1c3" aria-expanded="false"
+                                                aria-controls="stf1c3"
+                                                onclick="changeImage('stf1-img','images/Final_Professional_Development.png')">Professional Development</button>
+                                        </h2>
+                                        <div id="stf1c3" class="accordion-collapse collapse" aria-labelledby="stf1h3"
+                                            data-bs-parent="#staffAccordion1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Established the Staff Supervisory Awareness Program to provide all supervisors
+                                                        at the Uinversity with a solid foundation of core human resources knowledge critical to
+                                                        their success
+                                                    </li>
+                                                    <li>
+                                                        Launched a pilot CMULead program for staff aimed at fostering their development as
+                                                        leaders, expanding their networks and encouraging their stewardship of the university’s
+                                                        mission, vision and strategic goals
+                                                    </li>
+                                                    <li>
+                                                        Create a fund that allows staff to participate in external conferences
+                                                        and executive education programs provided on campus at no additional cost
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="stf1h4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#stf1c4" aria-expanded="false"
+                                                aria-controls="stf1c4"
+                                                onclick="changeImage('stf1-img','images/Final_DEI_Committee.png')">DEI Committee</button>
+                                        </h2>
+                                        <div id="stf1c4" class="accordion-collapse collapse" aria-labelledby="stf1h4"
+                                            data-bs-parent="#staffAccordion1">
+                                            <div class="accordion-body">
+                                                Develop standing committee that will have equal representation of faculty, staff,
+                                                undergraduate and graduate students, with two year appointments to ensure continuity
+                                                of work. Participation in this committee should be factored into tenure and promotion
+                                                decisions for faculty and staff respectively.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 initiative-img">
+                                <img class="img-fluid" id="stf1-img" src="images/Final_Gather_Data_to_Understand_Environment.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="staff2" role="tabpanel" aria-labelledby="staff2-tab">
+                    <h5 class="text-center pt-3 pb-5 px-3">Goal: Recruit, retain and cultivate diversity with our staff</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5 class="pb-1 ps-3">Initiatives</h5>
+                                <div class="accordion" id="staffAccordion2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="stf2h1">
+                                            <button class="accordion-button active" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#stf2c1" aria-expanded="true" aria-controls="stf2c1"
+                                                onclick="changeImage('stf2-img','images/Final_Equitable_Hiring_Practices.png')">Equitable Hiring Practices</button>
+                                        </h2>
+                                        <div id="stf2c1" class="accordion-collapse collapse show" aria-labelledby="stf2h1"
+                                            data-bs-parent="#staffAccordion2">
+                                            <div class="accordion-body">
+                                                Dietrich is going to review job descriptions, develop a repository of partners to market open
+                                                positions, and establish a clear onboarding practice for new staff. Additioanlly, CMU has partnered
+                                                with Vibrant Pittsburgh, an economic development nonprofit with the mission to build a
+                                                thriving and inclusive region by attracting, retaining and elevating a diverse pool of talent.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 initiative-img">
+                                <img class="img-fluid" id="stf2-img" src="images/Final_Equitable_Hiring_Practices.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="container px-0 mx-0">
+            <div class="row">
+                <div class="col col-md-5 col-12 px-0 mb-4">
+                    <!-- contact information for dean of dei -->
+                    <div id="contact" class="py-5 px-5">
+                        <h3 class="h">Contact</h3>
+                        <p>
+                            <a href="mailto:ledford@andrew.cmu.edu">Ayana Ledford</a><br>
+                            Associate Dean for Diversity, Equity and Inclusion<br>
+                            Office hours by appointment
+                        </p>
+                    </div>
+                </div>
+                <div class="col col-md-6 col-12 offset-md-1" id="additionalResources">
+                    <!-- additional dei-related resources -->
+                    <h3 class="h">Additional Resources</h3>
+                    <p>
+                        The Dietrich <a href="https://www.cmu.edu/dietrich/about/dei/committees.html" target="_blank"
+                            class="resource">Diversity, Equity, and Inclusion Committees</a> provide oversight on
+                        diversity, equity and inclusion issues and facilitate communication and accountability.<br>
+                        <br>
+                        <a href="https://www.cmu.edu/student-diversity" target="_blank" class="resource">Center for
+                            Student Diversity and Inclusion</a> cultivates a strong, diverse and inclusive community
+                        capable of embodying these values and advancing research, creativity, learning and development
+                        that changes the world.<br>
+                        <br>
+                        <a href="https://www.cmu.edu/hr/resources/hr-partners/disability.html" target="_blank"
+                            class="resource">The Office of Disability Services for Faculty and Staff</a> assists with
+                        job accommodations, digital and physical accessibility and resources for short- and long-term
+                        conditions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    <!-- page footer -->
+    <div id="footer" class="px-5 py-5">
+        <p>
+            Dietrich College of Humanities and Social Sciences<br>
+            5000 Forbes Avenue, Pittsburgh, PA 15213<br>
+            (412) 268-2830
+            <br>
+            <br>
+            Legal Info   |  <a href="www.cmu.edu">www.cmu.edu</a><br>
+            © 2021 Carnegie Mellon University
+        </p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+/* css is sorted in alphabetical order */
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.initiative.active {
+    color: #A6192E;
+    font-weight: 400;
+}
+
+a.nav-link:hover {
+    color: #A6192E;
+}
+
+a.nav-link {
+    color: #383838;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #F0F0F0;
+    color: #A6192E;
+    font-weight: 400;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    border: 0px;
+    box-shadow: none;
+}
+
+.accordion-item,
+.accordion-header,
+.accordion-button {
+    border: 0px;
+    background-color: #F0F0F0;
+}
+
+.breadcrumb a {
+    font-size: 1em;
+}
+
+.breadcrumb-item a {
+    color:#A6192E;
+    border-bottom: 1px solid;
+}
+
+.breadcrumb-item a:hover {
+    color:#63666A;
+}
+
+.btn {
+    font-weight: 200;
+    font-size: 1.25em;
+}
+
+button.toggler-edit {
+    border: none;
+}
+
+#carouselExampleControls {
+    height: 40%;
+    width: auto;
+    background: #63666A;
+}
+
+.carousel-text p,
+.carousel h2 {
+    color: white;
+}
+
+.carousel-text {
+    margin-top: 3em;
+}
+
+#contact {
+    background-color: #A6192E;
+    color: white;
+}
+
+#contact a, #footer a {
+    color: #F0F0F0;
+    text-decoration:underline;
+}
+
+#contact a:hover {
+    color:#cfcfcf;
+}
+
+#content, .intro {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    background-color: #383838;
+    color: #F0F0F0;
+}
+
+#footer a:hover {
+    color:#cfcfcf;
+}
+
+#full_plan {
+    font-size: 1em;
+    color: #A6192E;
+}
+
+#full_plan:link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#full_plan:hover {
+    border-bottom: 1px solid;
+}
+
+.h {
+    font-weight: 300;
+}
+
+header {
+    background: #A6192E;
+}
+
+header p {
+    color: white;
+    padding: 0.25%;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.75em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.nav-edit {
+    padding: 0px;
+    background-color: #F0F0F0;
+    margin-bottom: 1em;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.resource {
+    color: #A6192E;
+    text-decoration: underline;
+}
+
+.resource:hover {
+    color: #63666A;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionButton {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: solid #63666A 1px;
+    text-align: center;
+}
+
+.sectionButton>a {
+    color: #63666A;
+    text-decoration: none;
+}
+
+.sectionButton>a:hover {
+    color: #A6192E;
+}
+
+.sectionButton:hover {
+    border: solid #A6192E 1px;
+}
+
+#student,
+#faculty,
+#staff {
+    height: 40%;
+    width: auto;
+    background: #F0F0F0;
+}
+
+#student .nav-pills>li>a,
+#faculty .nav-pills>li>a,
+#staff .nav-pills>li>a {
+    border-radius: 0;
+    padding-top: 1.5em;
+    color: #383838;
+}
+
+#student .nav-pills>li>a.active,
+#faculty .nav-pills>li>a.active,
+#staff .nav-pills>li>a.active {
+    color: white;
+    background-color: #63666A;
+}
+
+#student .nav-pills>li>a:hover, 
+#faculty .nav-pills>li>a:hover, 
+#staff .nav-pills>li>a:hover {
+    font-weight: 400;
+}
+
+#student-heading,
+#faculty-heading,
+#staff-heading {
+    padding-top: 0.25em;
+    padding-left: 0.25em;
+}
+
+/* mobile styling */
+@media (max-width: 575.98px) {
+    * {
+        font-size: small;
+    }
+
+    #additionalResources {
+        padding-top: 2em;
+    }
+
+   .carousel-text {
+        margin-top: 0;
+    }
+
+    .initiative-img {
+        padding-top: 2em;
+    }
+
+    #student .nav-pills>li>a,
+    #faculty .nav-pills>li>a,
+    #staff .nav-pills>li>a {
+        border-radius: 0;
+        color: #383838;
+        padding-top: 0em;
+    }
+
+    #student .nav-pills>li>a.active,
+    #faculty .nav-pills>li>a.active,
+    #staff .nav-pills>li>a.active {
+        color: #383838;
+        background-color: #F0F0F0;
+        font-weight: 400;
+    }
+
+    ul.nav.nav-pills {
+        display: block;
+        text-align: center;
+    }
+}
